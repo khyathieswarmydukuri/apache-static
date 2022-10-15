@@ -10,7 +10,7 @@ pipeline {
                 ### building the image
 
                 docker build -t static:1 .
-                
+                '''
                 
             }
         }
