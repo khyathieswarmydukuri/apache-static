@@ -1,0 +1,4 @@
+resource "aws_key_pair" "helm-key" {
+  key_name   = "helm-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCXOYz1T9r97EPc+R+hk+Q6ucl1XhE2Q3oAC3hpkzgmzFxGAwEbD4VDUzza7YR0EAaJ7rIETFrVBZZ1GRb1RPSS3jTn5iIi6NgmA0j3Pj/WSu1l2SLPYLDnyzzlDkwa9sNDaqaU/RyrVzsiGOsni4V1/L7gEb1SZOUntgjmzUskeJmSHBoE0zX8yo3q7viNdGo1UpiEi+IaA2T85yddijnEjSm6SyY0l5EY5MImG9pPUiFULCEmKhpmH+dcrEQr32Fv4sw3Jh5uj7QNOL4L4qUSrp6emtPR/0jPFURVVhXPeTY9ZDZw07Wy+Ppxz/L/HBJN68iHQxYvgpX7eKrevzDv1w0EBgpSLUNV5gJliOTfWXTJjXexFnIKBogBkUdnQaadmLdArClk6dtqIVAbdK+seYlZPQ7ogaknzSMqXYOdIb+DoaFAnEelQnJWUBIH+09xUwxKQLIgAretUEQWJqTGvEkr4LAou+pO0jVJZaA+mtL/3tWF1vuRDVJ3Y8ij2vU= Hp@DESKTOP-BPAUOJC"
+}

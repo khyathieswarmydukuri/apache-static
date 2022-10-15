@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout') {
+            steps {
+                ssh '''
+                git clone "git@github.com:khyathieswarmydukuri/apache-static.git"
+
+                ### building the image
+
+                docker build -t static:1 .
+                
+                
+            }
+        }
+        
+    }
+}
